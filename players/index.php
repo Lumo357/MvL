@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLAYERS</title>
     <link rel="stylesheet" href="../style.css">
-    <?php require_once("../data.php"); ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
@@ -37,23 +36,136 @@
         <div class="players-wrapper">
             <h1>PLAYERS</h1>
             <div class = "player-list">
-            <?php foreach ($players as $player): ?>
-
                 <a class="player-block" href="#"?>
-                    <img src="<?php echo "../{$player->getImage()}" ?>" alt="">
-                    <p><?php echo $player->getName() ?></p>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>la岡田彡</p>
                 </a>
-                
                 <div class="player-detail">
                     
-                        <img src="<?php echo "../{$player->getImage()}" ?>" alt="">
+                        <img src="../images/logo_small.jpg" ?>" alt="">
                         <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
-                        <h2><?php echo $player->getName() ?></h2>
+                        <h2>la岡田彡</h2>
                         <p>Introduction</p>
                     
-                </div>                           
-
-            <?php endforeach ?>
+                </div>
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>フィル</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>フィル</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Amu</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Amu</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Name</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Name</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Name</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Name</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Name</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Name</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Name</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Name</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Name</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Name</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Name</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Name</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+                
+                <a class="player-block" href="#"?>
+                    <img src="../images/logo_small.jpg" ?>" alt="">
+                    <p>Name</p>
+                </a>
+                <div class="player-detail">
+                    
+                        <img src="../images/logo_small.jpg" ?>" alt="">
+                        <button class="close-player-detail"><i class="far fa-window-close close-button"></i></button>
+                        <h2>Name</h2>
+                        <p>Introduction</p>
+                    
+                </div> 
+            
             </div>
         </div>
     </main>
