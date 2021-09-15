@@ -7,7 +7,6 @@
     <title>Mí Vida Łoca</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <?php require_once("data.php"); ?>
     <!--slick -->
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -24,18 +23,18 @@
 
         <div>
             <ul id="top-menu">
-                <li><a href="about/index.php">ABOUT</a></li>
-                <li><a href="players/index.php">PLAYERS</a></li>
-                <li><a href="news/index.php">NEWS</a> </li>
+                <li><a href="about/index.html">ABOUT</a></li>
+                <li><a href="players/index.html">PLAYERS</a></li>
+                <li><a href="news/index.html">NEWS</a> </li>
             </ul>
         </div>
 
         <div class="slide-menu">
             <i class="fas fa-bars menu-icon"></i>
             <ul id="menu-bar">
-                <li><a href="about/index.php">ABOUT</a></li>
-                <li><a href="players/index.php">PLAYERS</a></li>
-                <li><a href="news/index.php">NEWS</a> </li>
+                <li><a href="about/index.html">ABOUT</a></li>
+                <li><a href="players/index.html">PLAYERS</a></li>
+                <li><a href="news/index.html">NEWS</a> </li>
             </ul>
         </div>
 
@@ -66,14 +65,61 @@
         <div class="players">
             <h1>PLAYERS</h1>
             <ul class="player-top-list">
-                <?php foreach($players as $player): ?>
-                    <li>
-                        <div class="player-info">
-                            <img src="<?php echo $player->getImage() ?>" alt="" class="player-img">
-                            <p class="player-name"><?php echo $player->getName() ?></p>
-                        </div>
-                    </li>
-                <?php endforeach?>
+                <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">Name</p>
+                    </div>
+                </li>
+              
+              <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">la岡田彡</p>
+                    </div>
+                </li>
+              
+              <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">フィル</p>
+                    </div>
+                </li>
+              
+              <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">Amu</p>
+                    </div>
+                </li>
+              
+              <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">Name</p>
+                    </div>
+                </li>
+              
+              <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">Name</p>
+                    </div>
+                </li>
+              
+              <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">Name</p>
+                    </div>
+                </li>
+              
+              <li>
+                    <div class="player-info">
+                      <img src="images/logo_small.jpg" alt="" class="player-img">
+                      <p class="player-name">Name</p>
+                    </div>
+                </li>
             </ul>
             
             <a href="players/index.php" class="detail-btn">VIEW MORE</a>
@@ -99,7 +145,6 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="script.js"></script>
-    <script src="slick.js"></script>
     
 </body>
 </html>
