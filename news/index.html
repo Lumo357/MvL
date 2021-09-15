@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <?php require_once("data.php"); ?>
+    
+</head>
+<body>
+    <header>
+        <div id="top-logo">
+            <a href="../index.php">
+                <img src="../images/logo.jfif" alt="MvLのロゴ">
+            </a>
+        </div>
+
+        <div>
+            <ul id="top-menu">
+                <li><a href="../index.php">ABOUT</a></li>
+                <li><a href="../players/index.php">PLAYERS</a></li>
+                <li><a href="../news/index.php">NEWS</a> </li>
+            </ul>
+        </div>
+
+        <div id="menu-bar">
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="news-wrapper">
+            <h1>LATEST NEWS</h1>
+            <div class="news-content">
+                <ul>
+                    <?php foreach($news_list as $article): ?>
+                    <li class="article-block">
+                        <a href="<?php echo $article->getLink() ?>">
+                            <section class="news-date"><?php echo $article->getDate() ?></section>
+                            <section class="news-title"><?php echo $article->getTitle() ?></section>
+                        </a>
+                    </li>
+                </ul>
+                <?php endforeach?>
+            </div>            
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="bottom-menu">
+            <h2>CONTACT</h2>
+            <a href="https://twitter.com/Mv59688079" target="_blank">
+            <i class="fab fa-twitter-square twitter-icon"></i>
+            https://twitter.com/Mv59688079
+            </a>
+        </div>
+
+        <small>&copy;Mí Vida Łoca</small>
+    </footer>
+</body>
+</html>
