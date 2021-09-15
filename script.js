@@ -27,6 +27,7 @@ $(function() {
                 breakpoint: 800,
                 settings: {
                     slidesToShow: 2,
+                    arrows: false,
                 }
             },
 
@@ -34,6 +35,7 @@ $(function() {
                 breakpoint: 550,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             },
         ] 
