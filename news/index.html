@@ -7,7 +7,6 @@
     <title>ABOUT</title>
     <link rel="stylesheet" href="../style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <?php require_once("data.php"); ?>
     
 </head>
 <body>
@@ -20,9 +19,9 @@
 
         <div>
             <ul id="top-menu">
-                <li><a href="../index.php">ABOUT</a></li>
-                <li><a href="../players/index.php">PLAYERS</a></li>
-                <li><a href="../news/index.php">NEWS</a> </li>
+                <li><a href="../index.html">ABOUT</a></li>
+                <li><a href="../players/index.html">PLAYERS</a></li>
+                <li><a href="../news/index.html">NEWS</a> </li>
             </ul>
         </div>
 
@@ -35,18 +34,7 @@
     <main>
         <div class="news-wrapper">
             <h1>LATEST NEWS</h1>
-            <div class="news-content">
-                <ul>
-                    <?php foreach($news_list as $article): ?>
-                    <li class="article-block">
-                        <a href="<?php echo $article->getLink() ?>">
-                            <section class="news-date"><?php echo $article->getDate() ?></section>
-                            <section class="news-title"><?php echo $article->getTitle() ?></section>
-                        </a>
-                    </li>
-                </ul>
-                <?php endforeach?>
-            </div>            
+            <h1> 準備中 </h1>                      
         </div>
         
     </main>
